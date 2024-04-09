@@ -21,10 +21,6 @@
   <node ns="me5413_world" pkg="me5413_world" type="goal_publisher_node" name="goal_publisher_node" output="screen" />
   <node pkg="me5413_world" type="Detection.py" name="TargetDetection" output="screen" />
   <node pkg="me5413_world" type="camera_calculation.py" name="CameraCalcuation" output="screen" />
-<<<<<<< HEAD
-=======
-
->>>>>>> b9c4ef8e765d6b03e7b49a12fedc04a928c95ede
 
   <!-- <node name="record_bag" pkg="rosbag" type="record" -->
   <!-- args="-O /home/lyu/ME5413_Final/error.bag /me5413_world/absolute/heading_error /me5413_world/absolute/position_error /me5413_world/relative/heading_error /me5413_world/relative/position_error" /> -->
